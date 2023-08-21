@@ -64,13 +64,14 @@ body {
   font-weight: 500;
 }
 
-.form-div h4 {
+.blue-banner {
   background-color: var(--Blue);
   border-radius: 10px;
   box-shadow: 0 10px hsla(249, 10%, 26%, .3);
   margin-top: 3rem;
   padding: 1rem;
   margin: 2rem 1rem;
+  font-weight: bold;
 }
 
 .form {
@@ -141,7 +142,7 @@ body {
   padding: 1rem;
   margin: 1rem;
   background: var(--Green);
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: .1rem;
   font-size: 1rem;
   box-shadow: 0 5px hsl(154, 59%, 40%);
