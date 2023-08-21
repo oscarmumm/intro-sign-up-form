@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- displays site properly based on user's device -->
+
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./images/favicon-32x32.png"
+        />
+        <link rel="stylesheet" href="./style.css" />
+        <title>Intro component with sign up form</title>
+    </head>
+    <body>
+        <main class="main-container">
+            <section class="main-section">
+                <div class="central">
+                    <h1>Learn to code by watching others</h1>
+                    <p>
+                        See how experienced developers solve problems in
+                        real-time. Watching scripted tutorials is great, but
+                        understanding how developers think is invaluable.
+                    </p>
+                </div>
+
+                <div class="form-div">
+                    <h4>Try it free 7 days then $20/mo. thereafter</h4>
+                    <form class="form" action="" autocomplete="off">
+                        <div class="input-div">
+                            <input
+                                id="name-input"
+                                class="form__input"
+                                type="text"
+                                placeholder="First Name"
+                            />
+                            <p
+                                id="error-name"
+                                class="form__input-error-msg"
+                            ></p>
+                            <img
+                                class="icon-error hidden"
+                                src="./images/icon-error.svg"
+                                alt=""
+                            />
+                        </div>
+                        <div class="input-div">
+                            <input
+                                id="last-name-input"
+                                class="form__input"
+                                type="text"
+                                placeholder="Last Name"
+                            />
+                            <p
+                                id="error-last-name"
+                                class="form__input-error-msg"
+                            ></p>
+                            <img
+                                class="icon-error hidden"
+                                src="./images/icon-error.svg"
+                                alt=""
+                            />
+                        </div>
+                        <div class="input-div">
+                            <input
+                                id="email-input"
+                                class="form__input"
+                                type="email"
+                                placeholder="Email Address"
+                            />
+                            <p
+                                id="error-email"
+                                class="form__input-error-msg"
+                            ></p>
+                            <img
+                                class="icon-error hidden"
+                                src="./images/icon-error.svg"
+                                alt=""
+                            />
+                        </div>
+                        <div class="input-div">
+                            <input
+                                id="pass-input"
+                                class="form__input"
+                                type="password"
+                                placeholder="Password"
+                            />
+                            <p
+                                id="error-pass"
+                                class="form__input-error-msg"
+                            ></p>
+                            <img
+                                class="icon-error hidden"
+                                src="./images/icon-error.svg"
+                                alt=""
+                            />
+                        </div>
+                        <button id="submit-btn" class="form__btn">
+                            CLAIM YOUR FREE TRIAL
+                        </button>
+                        <p class="form__terms-advice">
+                            By clicking the button, you are agreeing to our
+                            <span>Terms and Services</span>
+                        </p>
+                    </form>
+                </div>
+            </section>
+
+            <footer>
+                <p class="attribution">
+                    Challenge by
+                    <a
+                        href="https://www.frontendmentor.io?ref=challenge"
+                        target="_blank"
+                        >Frontend Mentor</a
+                    >. Coded by <a href="#">Oscar Mumm</a>.
+                </p>
+            </footer>
+        </main>
+        <script src="./script.js"></script>
+    </body>
+</html>
