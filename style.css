@@ -87,12 +87,12 @@ body {
 .input-div {
   width: 100%;
   position: relative;
+  margin: .75rem;
 }
 
 .form__input {
   width: 100%;
   padding: 1rem;
-  margin: .5rem;
   font-family: 'Poppins', sans-serif;
   border: 1px solid var(--Grayish-Blue);
   color: var(--Grayish-Blue);
